@@ -130,7 +130,7 @@ if __name__ == "__main__":
     initialization = initialize_distributed()
 
     # Load model and tokenizer
-    model_name = "NousResearch/Meta-Llama-3.1-8B-Instruct"
+    model_name = "meta-llama/Llama-3.2-1B-Instruct"
     model, tokenizer = load_model(model_name)
 
     # Load and prepare data
